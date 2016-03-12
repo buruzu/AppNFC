@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onPause() {
         super.onPause();
         nfcAdapter.disableForegroundDispatch(this);
+
     }
 
     private PendingIntent createPendingIntent() {
